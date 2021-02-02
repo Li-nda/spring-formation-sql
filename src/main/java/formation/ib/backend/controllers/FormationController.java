@@ -14,6 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 import formation.ib.backend.entities.Formation;
 import formation.ib.backend.services.FormationService;
 
+/**
+ * Classe permettant de gérer les requêtes liées aux formations.
+ * @author IB
+ *
+ */
+
 @RestController
 @RequestMapping("formations")
 @CrossOrigin // permet d'éviter les problèmes
